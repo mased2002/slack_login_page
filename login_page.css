@@ -1,0 +1,302 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+}
+.Thumbnail{
+    background: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 0px 45px 0px #E1C2A8;
+    width: 1920px;
+height: 1080px;
+position: absolute;
+}
+.Rectangle_9636{
+    width: 811px;
+height: 1080px;
+left: 1109px;
+position: absolute;
+background-color: white;
+}
+.frame14{
+    position: absolute;
+width: 420px;
+height: 505px;
+top: 287px;
+left: 201px;
+right: 190px;
+bottom: 288px;
+gap: 36px;
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.frame13{
+    width:420px;
+    height:151px;
+    display: flex;
+align-items: flex-start;
+gap: 32px;
+flex-direction: column;
+}
+.frame12{
+    width: Hug (420px);
+height: Hug (266px);
+gap: 32px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#login_title{
+width: 367px;
+height: 49px;
+font-family: Nunito Sans, sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+margin: 0;
+text-align: left;
+color: rgba(82, 82, 82, 1);
+}
+#login_subtitle{
+    width: 289px;
+    height: 22px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(82, 82, 82, 1);
+    margin: 0;
+}
+.frame2{
+    width:367px;
+height: 74px;
+gap: 3px;
+display: flex;
+flex-direction: column;
+}
+.frame1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px ;
+    border: 1px solid rgba(232, 232, 232, 1);
+    background: rgba(232, 232, 232, 1);
+    width: 400px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 13px;
+}
+.frame1 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px
+}
+.frame1 p{
+    width: 142px;
+    height: 19px;       
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(130, 130, 130, 1);
+}
+.sign_in{
+    width: 254px;
+    height: 16px;
+    font-family: Nunito Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #A1A1A1;
+background:(0deg, #DDDDDD, #DDDDDD);
+}
+.Email{
+    width: 36px;
+    height: 19px;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(130, 130, 130, 1);
+    display: inline-block;
+}
+::placeholder{
+    width: 92px;
+    height: 19px;
+    font-family: Nunito Sans ,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(224, 224, 224, 1);
+}
+.frame4, .frame3{
+width: 420px;
+height: 45px;
+padding: 18px, 10px, 13px, 10px;
+border-radius: 5px;
+border: 1px;
+gap: 13px;
+background: rgb(255, 247, 252);
+border: 1px solid rgba(222, 210, 217, 1);
+}
+.frame5{
+    width: 420px;
+    height: 68px;
+    gap: 4px;
+
+}
+.frame6{
+width: 420px;
+height: 68px;
+gap: 4px;
+}
+.frame9{
+    width:420px;
+height:92px;
+gap: 8px;
+
+}
+#password{
+    width: 77px;
+    height: 14px;
+    font-family: Nunito Sans,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(224, 224, 224, 1);
+}
+#email{
+    width: 92px;
+    height: 19px;
+    font-family: Nunito Sans, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(224, 224, 224, 1);
+}
+.frame11{
+width: 420px;
+height: 184px;
+gap: 24px;
+display: flex;
+flex-direction: column;
+}
+/* #pass{
+width: 420px;
+height: 45px;
+padding: 18px, 10px, 13px, 10px;
+border-radius: 5px;
+border: 1px;
+gap: 13px;
+background: rgba(222, 210, 217, 1);
+border: 1px solid rgba(222, 210, 217, 1)
+} */
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox > div{
+    display: flex;
+}
+.checkbox >  p{
+    width: 99px;
+    height: 16px;
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(127, 38, 91, 1);
+}
+.checkbox > p:hover{
+    font-size:14px ;
+}
+#remb{
+    width: 79px;
+    height: 16px;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(161, 161, 161, 1);
+}
+#remember{
+    accent-color: rgb(127, 38, 91);
+}
+.frame7{
+display: flex;
+width: 400px;
+height: 50px;
+padding: 13px 10px 12px 10px;
+border-radius: 6px;
+gap: 13px;
+background: rgba(127, 38, 91, 1);
+justify-content: center;
+align-items: center;
+}
+.frame7 p{
+    /* width: 48px;
+height: 25px; */
+font-family: Nunito Sans;
+font-size: 18px;
+font-weight: 800;
+line-height: normal;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+}
+.frame10{
+position: absolute;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 317px;
+height: 25px;
+top: 980px;
+right: 241px;
+left: 253px;
+bottom: 75px;
+gap: 10px;
+}
+#frame10_a{
+width: 159px;
+height: 25px;
+font-family: Nunito Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(130, 130, 130, 1);
+}
+#frame10_b{
+width: 148px;
+height: 25px;
+font-family: Nunito Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(127, 38, 91, 1);
+}
